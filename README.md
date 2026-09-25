@@ -2,7 +2,7 @@
 
 **A Telegram-based Remote Access Trojan for Windows**
 
-ShadowRAT is a Remote Access Trojan that uses Telegram as its command and control (C2) channel. It provides complete remote control over a Windows machine through Telegram bot commands with password authentication.
+ShadowRAT is a Remote Access Trojan that uses Telegram as its command and control (C2) channel. It provides complete remote control over a Windows machine through Telegram bot commands with password-protected access. The tool is designed for cybersecurity research, defensive analysis, and authorized penetration testing only.
 
 ---
 
@@ -328,13 +328,13 @@ You can copy this single EXE file to any Windows computer and run it without ins
 ### How to Use
 
 1. Open Telegram and search for your bot username (example: `@ShadowRAT_bot`)
-  
+   
 2. Send `/start` to the bot
 
 3. Bot asks for password - send `1234567B` (or your custom password)
-  
+   
 4. Bot replies: `SHADOW RAT Activated` and shows victim info
-
+   
 5. Send any command from the list below
 
 ## Authentication
@@ -555,4 +555,4 @@ You can copy this single EXE file to any Windows computer and run it without ins
 
 **Custom Educational and Research License**
 
-Copyright © 2026 Sreeraj S Kurup. All rights reserved.
+Copyright © 2026 dannywise093-crypto. All rights reserved.
